@@ -1,0 +1,16 @@
+package lv.alina;
+
+import lv.alina.player.FootballPlayer;
+
+public class TestJava {
+
+	
+	public static void main(String[] args) {
+		FootballPlayer player = new FootballPlayer();
+		player.setName("Ronaldo");
+		System.out.println(player.getName());
+		
+
+	}
+
+}

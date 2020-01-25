@@ -1,0 +1,18 @@
+package lv.alina;
+
+import lv.alina.geometricfigures.Circle;
+
+public class TestFigureClass {
+
+	public static void main(String[] args) {
+
+		Circle figure = new Circle();
+
+		Circle figure2 = new Circle(40.2);
+		
+		
+		System.out.println(figure.getColor() + " " + figure.getRadius());
+
+	}
+
+}

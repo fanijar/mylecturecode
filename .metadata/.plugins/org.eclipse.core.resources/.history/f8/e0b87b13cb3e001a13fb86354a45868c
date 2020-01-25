@@ -1,0 +1,23 @@
+package lv.alina;
+
+public class LearnMethods {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) { //void - nav tipa - atgriezīs jebkuru tipu; static  - nevajag viedot ; public - pieejamība
+		
+
+	}
+	public static void getMyName(){
+		System.out.println("My name is Alina");
+
+	}
+	public static void getMyCity(){
+		
+	}
+	public static void getIHaveCat(){
+		
+		
+	}
+}

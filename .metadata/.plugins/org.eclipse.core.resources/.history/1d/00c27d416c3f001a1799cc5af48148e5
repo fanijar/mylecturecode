@@ -1,0 +1,22 @@
+package lv.alina.learnstring;
+
+public class TestStringClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "Index";
+		String strClass = new String(str);
+		
+		System.out.println(str);
+		
+		System.out.println("String like obj "+strClass);
+		
+		int stringLength = str.length();
+		
+		System.out.println(stringLength);
+
+	}
+
+}

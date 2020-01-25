@@ -1,0 +1,16 @@
+package lv.alina.learnjavaclass;
+
+public class TestJavaProgram {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Box boxObject = new Box(); //default constructor
+		
+		
+		System.out.println(boxObject.height);
+
+	}
+
+}

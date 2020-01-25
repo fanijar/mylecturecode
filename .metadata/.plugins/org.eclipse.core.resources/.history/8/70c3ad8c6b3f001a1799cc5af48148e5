@@ -1,0 +1,18 @@
+package lv.alina.learnstring;
+
+public class TestStringClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "Index";
+		String strClass = new String();
+		
+		System.out.println(str);
+		
+		System.out.println("String like obj "+strClass);
+
+	}
+
+}
