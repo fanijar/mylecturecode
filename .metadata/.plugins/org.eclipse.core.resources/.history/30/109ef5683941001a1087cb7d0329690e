@@ -1,0 +1,16 @@
+package lv.alina;
+
+import lv.alina.figure.Rectangle;
+
+public class TestFigure {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Rectangle rectangle = new Rectangle ();
+		System.out.println(rectangle.toString());
+
+	}
+
+}

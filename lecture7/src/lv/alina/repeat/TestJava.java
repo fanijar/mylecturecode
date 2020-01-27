@@ -12,12 +12,19 @@ public class TestJava {
 		
 		
 		while(input.hasNextInt()){
-			inputValue = input.nextInt();
+			if (input.hasNextInt()){
+				inputValue = input.nextInt();
+				System.out.println("Your input is "+inputValue);
+			}
+			
+			else {
+				System.out.println("Your input is not int");
+				input.next();
+			}}}}
 		
 			
 			
 		
-		
-		System.out.println("Assign to variable with type int: "+inputValue);}}}
+	
 
 
