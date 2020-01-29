@@ -1,0 +1,16 @@
+package lv.alina;
+
+import lv.alina.graph.Point2d;
+
+public class TestInheritance {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Point2d point = new Point2d();
+		System.out.println(point.toString());
+
+	}
+
+}

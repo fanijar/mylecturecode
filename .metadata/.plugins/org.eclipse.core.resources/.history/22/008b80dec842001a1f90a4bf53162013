@@ -1,0 +1,18 @@
+package lv.alina.users;
+
+public class Student extends Person {
+	private int numCourse;
+	private String[] courses;
+	private int[] grades;
+	
+	public Student (String name, String address){
+		super(name, address);
+	}
+	public void addCourseGrade(String course, int grade){
+		
+	}
+	public String toString() {
+		return super.getName() + "("+super.getAddress() +  ")";
+	}
+
+}
